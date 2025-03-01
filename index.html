@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Industrial Engineer & Software Developer</title>
+    <title>Eliezer Dimas Pradana - Industrial Engineer & Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <script src="js/script.js" defer></script>
 </head>
+
 <body>
+
     <header>
         <div class="container">
-            <h1>Your Name</h1>
+            <h1>Eliezer Dimas Pradana</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -26,8 +29,12 @@
     <main>
         <section id="home" class="hero-section">
             <div class="container">
+                <div class="about-image">
+                    <!-- Add your professional photo here -->
+                    <img src="assets\images\foto1.jpeg" alt="Your Name - Professional Photo">
+                </div>
                 <div class="hero-content">
-                    <h2>Industrial Engineer & Software Developer</h2>
+                    <h2>Hello ! I am Eliezer Pradana</h2>
                     <p>Transforming operational challenges into data-driven solutions</p>
                     <a href="#contact" class="cta-button">Get in Touch</a>
                 </div>
@@ -65,20 +72,80 @@
         <section id="experience" class="experience-section">
             <div class="container">
                 <h2>Professional Experience</h2>
-                <div class="experience-item">
-                    <h3>CNAF - Automotive Multifinance</h3>
-                    <p class="experience-meta">Managerial Development Program | 1 Year</p>
-                    <p>During my time at CNAF, I worked across multiple branches and the head office, gaining valuable experience in:</p>
-                    <ul>
-                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
-                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
-                    </ul>
-                    <p>Key achievements:</p>
-                    <ul>
-                        <li>[Achievement 1 with metrics if possible]</li>
-                        <li>[Achievement 2 with metrics if possible]</li>
-                        <li>[Achievement 3 with metrics if possible]</li>
-                    </ul>
+                <!--Column 1: Current Working-->
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <img src="assets/images/Auditor.png" alt="CNAF Logo" class="company-logo">
+                            <h3>CIMB NIAGA AUTO FINANCE</h3>
+                        </div>
+
+                                <p class="experience-details">Internal Auditor</p>
+                                <p class="duration">Oct 2023 - Current </p>
+                                <div class="experience-details">
+                                    <h4>Operational Division</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+
+                                    <h4>Collection Division</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+                                </div>
+                    </div>
+                </div>
+                <!--Column 2: OMDP-->
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <img src="assets\images\ProjectManager.png" alt="CNAF Logo" class="company-logo">
+                            <h3>CIMB NIAGA AUTO FINANCE</h3>
+                        </div>
+
+                                <p class="experience-details">Managerial Development Program</p>
+                                <p class="duration">Oct 2023 - Sept 2024 </p>
+                                <div class="experience-details">
+                                    <h4>Operational Division</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+
+                                    <h4>Collection Division</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+                                </div>
+                    </div>
+                </div>
+                <!--Column 3: BINUS-->
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <img src="assets\images\Industrial Engineering.png" alt="CNAF Logo" class="company-logo">
+                            <h3>BINUS University</h3>
+                        </div>
+
+                                <p class="experience-details">Industrial Engineering</p>
+                                <p class="duration">1 Year</p>
+                                <div class="experience-details">
+                                    <h4>Supply Chain Management</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+
+                                    <h4>Statistical Process Quality</h4>
+                                    <ul>
+                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                    </ul>
+                                </div>
+                    </div>
                 </div>
                 <!-- Add more experience items as needed -->
             </div>
@@ -89,7 +156,24 @@
                 <h2>Projects</h2>
                 <div class="projects-grid">
                     <!-- Project 1 (placeholder or real) -->
-                    <article class="project-card">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets\images\SoftwareEngineering.png" alt="Learning 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Brief description of the project, technologies used, and outcomes achieved.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
                         <div class="project-image">
                             <img src="images/project1.jpg" alt="Project 1">
                         </div>
@@ -103,9 +187,41 @@
                             </div>
                             <a href="#" class="project-link">View Project</a>
                         </div>
-                    </article>
+                    </div>
                     
-                    <!-- Add more project cards as needed -->
+                    <!-- Project 3-->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Brief description of the project, technologies used, and outcomes achieved.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Title</h3>
+                            <p>Brief description of the project, technologies used, and outcomes achieved.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
