@@ -4,9 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eliezer Dimas Pradana - Industrial Engineer & Software Developer">
     <title>Eliezer Dimas Pradana - Industrial Engineer & Software Developer</title>
+
+    <!-- PENAMBAHAN GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <script src="js/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -14,6 +21,7 @@
     <header>
         <div class="container">
             <h1>Eliezer Dimas Pradana</h1>
+            <button class="menu-toogle" aria-label="Toggle navigation menu">☰</button>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -30,8 +38,8 @@
         <section id="home" class="hero-section">
             <div class="container">
                 <div class="about-image">
-                    <!-- Add your professional photo here -->
-                    <img src="assets\images\foto1.jpeg" alt="Your Name - Professional Photo">
+                    <!-- Professional photo  -->
+                    <img src="assets\images\foto1.jpeg" alt="Eliezer Dimas Pradana - Professional Photo">
                 </div>
                 <div class="hero-content">
                     <h2>Hello ! I am Eliezer Pradana</h2>
@@ -47,7 +55,7 @@
                 <div class="about-content">
                     <div class="about-image">
                         <!-- Add your professional photo here -->
-                        <img src="images/profile-photo.jpg" alt="Your Name - Professional Photo">
+                        <img src="assets\images\foto1.jpeg" alt="Eliezer Dimas Pradana - Professional Photo">
                     </div>
                     <div class="about-text">
                         <p>I'm an Industrial Engineer with experience in the automotive finance sector, currently expanding my expertise in software engineering.</p>
@@ -72,6 +80,8 @@
         <section id="experience" class="experience-section">
             <div class="container">
                 <h2>Professional Experience</h2>
+
+
                 <!--Column 1: Current Working-->
                 <div class="experience-grid">
                     <div class="experience-card">
@@ -82,6 +92,11 @@
 
                                 <p class="experience-details">Internal Auditor</p>
                                 <p class="duration">Oct 2023 - Current </p>
+
+                                <!--Tambahan Baru drop down-->
+                                <button class="dropdown-toggle">View Details</button>
+
+
                                 <div class="experience-details">
                                     <h4>Operational Division</h4>
                                     <ul>
@@ -97,6 +112,7 @@
                                 </div>
                     </div>
                 </div>
+
                 <!--Column 2: OMDP-->
                 <div class="experience-grid">
                     <div class="experience-card">
@@ -107,19 +123,26 @@
 
                                 <p class="experience-details">Managerial Development Program</p>
                                 <p class="duration">Oct 2023 - Sept 2024 </p>
-                                <div class="experience-details">
-                                    <h4>Operational Division</h4>
-                                    <ul>
-                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
-                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
-                                    </ul>
 
-                                    <h4>Collection Division</h4>
-                                    <ul>
-                                        <li>Operational Division: [Describe specific responsibilities and achievements]</li>
-                                        <li>Collection Division: [Describe specific responsibilities and achievements]</li>
-                                    </ul>
-                                </div>
+                                 <!--Tambahan Baru drop down-->
+                                 <button class="dropdown-toggle">View Details</button>
+
+                                    <div class="experience-details-dropdown">
+                                        <div class="experience-details">
+                                            <h4>Operational Division</h4>
+                                            <ul>
+                                                 <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                                <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                            </ul>
+
+                                            <h4>Collection Division</h4>
+                                            <ul>
+                                                <li>Operational Division: [Describe specific responsibilities and achievements]</li>
+                                                <li>Collection Division: [Describe specific responsibilities and achievements]</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
                     </div>
                 </div>
                 <!--Column 3: BINUS-->
@@ -132,6 +155,10 @@
 
                                 <p class="experience-details">Industrial Engineering</p>
                                 <p class="duration">1 Year</p>
+
+                                 <!--Tambahan Baru drop down-->
+                                 <button class="dropdown-toogle">View Details</button>
+
                                 <div class="experience-details">
                                     <h4>Supply Chain Management</h4>
                                     <ul>
